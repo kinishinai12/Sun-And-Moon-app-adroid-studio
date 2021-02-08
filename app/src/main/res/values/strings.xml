@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sun n Moon</string>
+    <string name="sunBtn1">I am the sun and you\'re my moon</string>
+    <string name="sunBtn2">i\'m always here for you, like the light coming from the sun,
+        illuminating the beauty of the moon throughout the night sky</string>
+    <string name="sunBtn3">like the phases of the moon, whatever your phases are, my light will always be yours</string>
+    <string name="sunBtn4">through my light, I just want to be with you.</string>
+    <string name="imageDescription1">SunImage</string>
+    <string name="imageDescription2">MoonImage</string>
+    <string name="blank"> </string>
+    <string name="btn1">I</string>
+    <string name="btn2">LOVE</string>
+    <string name="btn3">YOU</string>
+    <string name="titleMenuSun">Sun</string>
+    <string name="titleMenuMoon">Moon</string>
+    <string name="titleMenuReset">Reset</string>
+    <string name="toastMessage">Under maintenance</string>
+</resources>

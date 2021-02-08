@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/titleMenuSun"
+        android:id="@+id/menuSun"
+        android:icon="@drawable/ic_sun"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:title="@string/titleMenuMoon"
+        android:icon="@drawable/ic_moon"
+        android:id="@+id/menuMoon"
+        app:showAsAction="always"/>
+    <item
+        android:title="@string/titleMenuReset"
+        android:icon="@drawable/ic_reset"
+        android:id="@+id/menuReset"
+        app:showAsAction="always"/>
+
+</menu>

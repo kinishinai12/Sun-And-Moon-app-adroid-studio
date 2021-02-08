@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_sun"
+        android:id="@+id/sunImg"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/imageDescription1"
+        android:layout_above="@+id/secondRelative"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/secondRelative">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/innerRelative"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="7"
+                android:text="@string/blank"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:id="@+id/textSun"
+                android:fontFamily="@font/newfont"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/innerRelative"
+            android:id="@+id/innerLinear"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+<!-- naka initialized na sa main activity -->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnI"
+                android:visibility="visible"
+                style="@android:style/Animation"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:id="@+id/btnLove"
+                android:visibility="invisible"
+                style="@android:style/Animation"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:id="@+id/btnYou"
+                android:visibility="invisible"
+                style="@android:style/Animation"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/btnHeart"
+                android:visibility="invisible"
+                style="@android:style/Animation"/>
+<!--gang dito-->
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
